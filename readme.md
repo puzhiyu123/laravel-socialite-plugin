@@ -7,7 +7,12 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+
+```
 // Below are comments added by Zhiyu (George) Pu, to read documentations from Laravel, please go further below.
+
+```
+
 ## About This Project
 Laravel Socialite is one of the powerful tool Laravel framework provide that enable developer to modify their Laravel apps to provide login services with social networks such as Facebook, Google, or Twitter. It is a refreshing service with convenient settings for set up.
 
@@ -44,11 +49,19 @@ After setting this straight, you could reference my previous commits for details
 
 I will keep commenting on every of my commits for detailed procedures and I will also keep this ReadMe file active.
 
+For full documentation, please visit: 
+```
+http://www.georgepu.com/laravel-social.html
+```
+
 Thanks.
 
 Zhiyu (George) Pu
 
+
+```
 // Below are the start of the official Laravel Documentation
+```
 
 ## About Laravel
 
