@@ -38,7 +38,7 @@ DB_DATABASE= yourDatabaseName
 DB_USERNAME=root
 DB_PASSWORD= yourDatabasePassword
 
-env```
+```
 
 After setting this straight, you could reference my previous commits for details.
 
