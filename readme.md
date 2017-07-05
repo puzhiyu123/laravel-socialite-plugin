@@ -7,6 +7,49 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+// Below are comments added by Zhiyu (George) Pu, to read documentations from Laravel, please go further below.
+## About This Project
+Laravel Socialite is one of the powerful tool Laravel framework provide that enable developer to modify their Laravel apps to provide login services with social networks such as Facebook, Google, or Twitter. It is a refreshing service with convenient settings for set up.
+
+I have concluded this socialite-plugin only for reference, it is plugined with Facebook, Google and Twitter and are tested on my own server. Before use this file, be sure to change your environment settings (.env file) so that the environment would be the same as my side. The environment samples are follows:
+
+```env
+
+// Facebook Settings
+FACEBOOK_CLIENT_ID= yoursampleFacebook_key
+FACEBOOK_CLIENT_SECRET= yoursampleFacebookClient_Secret
+
+// Google Settings
+GOOGLE_CLIENT_ID= yoursampleGoogle_key
+GOOGLE_CLIENT_SECRET= yoursampleGoogleClient_Secret
+
+// Twitter Settings
+TWITTER_CLIENT_ID= yoursampleTwitter_key
+TWITTER_CLIENT_SECRET= yoursampleTwitterClient_Secret
+
+/* (optional) Database Settings
+   I added Database settings here for example, please 
+   reference your own settings. :)  */
+   
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE= yourDatabaseName
+DB_USERNAME=root
+DB_PASSWORD= yourDatabasePassword
+
+env```
+
+After setting this straight, you could reference my previous commits for details.
+
+I will keep commenting on every of my commits for detailed procedures and I will also keep this ReadMe file active.
+
+Thanks.
+
+Zhiyu (George) Pu
+
+// Below are the start of the official Laravel Documentation
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
