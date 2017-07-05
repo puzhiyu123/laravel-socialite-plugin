@@ -17,4 +17,23 @@ Route::get('/', function () {
 
 Route::get('login', 'LoginController@showLoginPage');
 
-Route::get('dashboard', 'LoginController@showDashBoard');
+Route::get('dashboard', 'LoginController@showDashBoard')
+    ->middleware(['auth']);
+
+Route::get('logout', 'LoginController@logout');
+
+Route::get('login/{provider}', 'LoginController@auth')
+    ->where(['provider' => 'facebook|google|twitter']);
+
+Route::get('login/facebook/callback', 'LoginController@login')
+    ->where(['provider' => 'facebook']);
+
+Route::get('login/google/callback', 'LoginController@login')
+    ->where(['provider' => 'google']);
+
+Route::get('login/twitter/callback', 'LoginController@login')
+    ->where(['provider' => 'twitter']);
+
+
+
+
