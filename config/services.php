@@ -53,5 +53,14 @@ return [
         'redirect' => 'http://social-login.dev/login/google/callback',
     ],
 
+    // twitter sample application for reference
+    'twitter' => [
+        // input these credentials in your own environment files
+        'client_id' => env('TWITTER_CLIENT_ID'),
+        'client_secret' => env('TWITTER_CLIENT_SECRET'),
+        // this is a sample route
+        'redirect' => 'http://social-login.dev/login/twitter/callback',
+    ],
+
 
 ];
