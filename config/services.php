@@ -35,10 +35,23 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    // facebook sample application for reference
     'facebook' => [
+        // input these credentials in your own environment files
         'client_id' => env('FACEBOOK_CLIENT_ID'),
         'client_secret' => env('FACEBOOK_CLIENT_SECRET'),
+        // this is a sample route
         'redirect' => 'http://social-login.dev/login/facebook/callback',
     ],
+
+    // google sample application for reference
+    'google' => [
+        // input these credentials in your own environment files
+        'client_id' => env('GOOGLE_CLIENT_ID'),
+        'client_secret' => env('GOOGLE_CLIENT_SECRET'),
+        // this is a sample route
+        'redirect' => 'http://social-login.dev/login/google/callback',
+    ],
+
 
 ];
