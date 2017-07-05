@@ -26,6 +26,15 @@
 <body>
 <div id="navbar" class="collapse navbar-collapse">
     <ul class="nav navbar-nav navbar-right">
+        @if(auth()->check())
+            @include('partials.user-menu')
+        @else
+            <li>
+                <a href="{{ action('LoginController@showLoginPage') }}">
+                    Sign In <i class="fa fa-sign-in"></i>
+                </a>
+            </li>
+        @endif
         <li>
             <a href="{{ action('LoginController@showLoginPage') }}">Sign In <i class="fa fa-sign-in"></i></a>
         </li>
