@@ -7,16 +7,26 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## Laravel Socialite Native Plugin Application Demo
+Laravel apps are famous for having community-supported system. Recently the founder of Laravel has revealed Laravel's new function - Socialite, which helps developers help their own website build social-network plugins such as Facebook, Google and GitHub.
 
-```
-// Below are comments added by Zhiyu (George) Pu, to read documentations from Laravel, please go further below.
+This repository is a live demo of Laravel's Socialite function and embedded with Facebook, Google and Twitter as application.
 
-```
+#### This project is embedded with one of my blog post of Laravel Socialite, please visit the tutorial first from the link below.
+
+http://www.georgepu.com/laravel-social.html
 
 ## About This Project
-Laravel Socialite is one of the powerful tool Laravel framework provide that enable developer to modify their Laravel apps to provide login services with social networks such as Facebook, Google, or Twitter. It is a refreshing service with convenient settings for set up.
 
-I have concluded this socialite-plugin only for reference, it is plugined with Facebook, Google and Twitter and are tested on my own server. Before use this file, be sure to change your environment settings (.env file) so that the environment would be the same as my side. The environment samples are follows:
+### Tools used:
+
+#### Back-end/Web Platform: Laravel (based on PHP)
+#### Front-end(UI): HTML, CSS, JavaScript
+#### Plugins: jQuery date-time picker
+
+
+
+## NOTICE: BE SURE TO MODIFY THE ENV FILE WITH THE FOLLOWING ITEMS
 
 ```env
 
@@ -45,23 +55,18 @@ DB_PASSWORD= yourDatabasePassword
 
 ```
 
-After setting this straight, you could reference my previous commits for details.
-
-I will keep commenting on every of my commits for detailed procedures and I will also keep this ReadMe file active.
-
-For full documentation, please visit: 
-```
+You can visit 
 http://www.georgepu.com/laravel-social.html
-```
-
-Thanks.
-
-Zhiyu (George) Pu
+for details.
 
 
-```
-// Below are the start of the official Laravel Documentation
-```
+
+
+
+
+
+
+
 
 ## About Laravel
 
